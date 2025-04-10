@@ -1,11 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .t1,
+        .t1 th,
+        .t1 td {
+            border: 1px solid black;
+        }
+
+        .t2,
+        .t2 th,
+        .t2 td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
+
+
 <body>
-    
+    <table class="t1">
+        <tr>
+            <th style="background-color: rgb(89, 66, 190);">time</th>
+            <th style="background-color: blueviolet;"> mon</th>
+            <th style="background-color: rgb(201, 66, 66);"> tue</th>
+            <th style="background-color: greenyellow;">wed</th>
+            <th style="background-color: gray;">thu</th>
+            <th style="background-color: orange;">fri</th>
+            <th style="background-color: pink;">sat</th>
+        </tr>
+        <tr>
+            <td>7:00 to 7:50 am </td>
+            <td>science</td>
+            <td>algebra</td>
+            <td>englissh</td>
+            <td>geometry</td>
+            <td>arts</td>
+            <td>geometry</td>
+        </tr>
+        <tr>
+            <td>7:50 to 8:40 am</td>
+            <td>history</td>
+            <td>geometry</td>
+            <td>science</td>
+            <td>english</td>
+            <td>arts</td>
+            <td>science</td>
+        </tr>
+        <tr>
+            <td>8:40 to 9:30 am</td>
+            <td>geography</td>
+            <td>english</td>
+            <td>arts</td>
+            <td>algebra</td>
+            <td>english</td>
+            <td>english</td>
+        </tr>
+        <tr>
+            <th colspan="7" style="background-color: green;">
+                recess
+            </th>
+        </tr>
+        <tr>
+            <td>10:00 to 10:50 am</td>
+            <td>algebra</td>
+            <td>science</td>
+            <td>history</td>
+            <td>science</td>
+            <td>history</td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr>
+            <td>10:50 to 11:40 am</td>
+            <td>geometry</td>
+            <td>pt</td>
+            <td>geography</td>
+            <td>science</td>
+            <td>geography</td>
+
+        </tr>
+        <tr>
+            <td>11:40 to 12:30 pm</td>
+            <td>english</td>
+            <td>pt</td>
+            <td>lab</td>
+            <td>lab</td>
+            <td>algebra</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table class="t2" style="width: 50%;">
+        <tr>
+            <th></th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+        </tr>
+        <tr>
+            <td>8:00am</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9:00am</td>
+            <td rowspan="2">Office hours</td>
+            <td></td>
+            <td rowspan="2">Office hours</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+        <td>10:00am </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+            <td>11:00am</td>
+            <td rowspan="2">CS245A</td>
+            <td rowspan="2">CS301A</td>
+            <td rowspan="2">CS245A</td>
+            <td rowspan="2">CS301A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12:00pm</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1:00pm</td>
+            <td>lunch</td>
+         </tr>
+        <tr>
+            <td>2:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>No Classes</td>
+        </tr>
+        <tr>
+            <td>3:00pm</td>
+            <td>Office Hours</td>
+            <td>Office Hours</td>
+            <td></td>
+            <td>Office Hours</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5:30pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6:30pm</td>
+            <td>CS505A</td>
+            <td>CS556AH1</td>
+            <td>CS556BH2</td> 
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7:30pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="5">CS556AH1 is a first term cource</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="5">CS556BH2 is a second term cource</td> 
+        </tr>
+
+    </table>
 </body>
 </html>
