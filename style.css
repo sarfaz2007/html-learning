@@ -1,17 +1,9 @@
-body{
-    margin:15px;
+section-1 h1{
+    color: rgb(224, 106, 9);
 }
-h1 {
-    color:red;
+section-1 h2{
+    color: red;
 }
-header{
-    background-color: black;
-}
-div{
-    width: 50000%;
-    height: 300px;
-    background-color: pink;
-    border: 3px solid black;
-    
-
+p{
+    background-color: aqua;
 }
