@@ -1,9 +1,9 @@
-section-1 h1{
-    color: rgb(224, 106, 9);
+div{
+    width: 700px;
+    height: 400;
+    background-color:lightblue;
+
+
+ 
 }
-section-1 h2{
-    color: red;
-}
-p{
-    background-color: aqua;
-}
+
