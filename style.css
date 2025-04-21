@@ -1,24 +1,25 @@
 body{
     margin: 0;
-}
-h1{
-    margin: 0;
-}
+    background-color: rgb(4, 224, 188);
 
-.container{
-    background-color: rgb(64, 149, 219);
-    height: 400px;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
 }
-.one,.two,.three{
-    flex: 1;
-    background-color: orange;
-    border: 1px solid white;
-    text-align: center;
-    padding: 5px;
+div{
+    width:200px;
+    height: 200px;
+    margin:5px;
+    background-color:rgb(238, 13, 13);
+    animation: expand 1s ease-out 1s infinite ;
+}
+div:hover{
+    animation-play-state: paused;
+}
+@keyframes expand{
+    from{
+        width: 200px;
+    }
+    to{
+      width: 600px;
+    
+    }
 }
 
