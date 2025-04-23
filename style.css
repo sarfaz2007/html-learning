@@ -1,11 +1,14 @@
 .section-1{
     width: 50pz;
     height: 500px;
-    background-color:rgb(54, 47, 34);
+    background-color:rgb(218, 59, 31);
+    text-align: left;
 } 
 
-@media screen and (max-width:400px){
+@media (max-width: 400px) {
     .section-1{
-        background-color: black;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
     }
 }
