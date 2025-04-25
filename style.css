@@ -2,11 +2,38 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: rgb(6, 161, 110);
+.container{
+    outline: 1px solid black;
 }
 
-h1["section-1"] {
-    color: rgb(131, 4, 4);
+/* child selector */
+/* .container > h1 {
+    color: orange 
+} */ 
+
+/* General sibling selector */
+/* #container-id ~ .container h1 {
+    color: orangered;
+} */
+
+
+/* adjecent sibling selector */
+/* #container-id + .container h1 {
+    color: rgb(12, 182, 117);
+} */ 
+
+div:not(.grid-container){
+    background-color: aqua;
 }
+
+.inside-one-span,
+.inside-two span,
+.inside-three span,
+.inside-four span {
+    color: orangered;
+}
+
+
+
+
 
