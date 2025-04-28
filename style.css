@@ -1,39 +1,30 @@
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(13, 212, 212);
 }
+.section-1{
+   border: 4px solid red;
+   height:50px;
+   fo
 
-.container{
-    outline: 1px solid black;
 }
-
-/* child selector */
-/* .container > h1 {
-    color: orange 
-} */ 
-
-/* General sibling selector */
-/* #container-id ~ .container h1 {
-    color: orangered;
-} */
-
-
-/* adjecent sibling selector */
-/* #container-id + .container h1 {
-    color: rgb(12, 182, 117);
-} */ 
-
-div:not(.grid-container){
-    background-color: aqua;
+p2{
+    border: 3px solid orange;   
 }
-
-.inside-one-span,
-.inside-two span,
-.inside-three span,
-.inside-four span {
-    color: orangered;
+.section-2{
+    border: 5px solid blue;
+    height:310px;
+    
 }
-
-
-
-
-
+span{
+    border: 4px solid rgb(68, 13, 158);
+}
+.my image{
+    width: 50px;
+    height:40px;
+    border-radius: 8px;
+}
+.section-3{
+    border: 5px solid blue;
+    height: 350px;
+}
