@@ -1,7 +1,14 @@
-div{
-    background-color: rgb(212, 60, 60);
-    width:130px;
-    height: 100px;
+.heading-1{
+    background-color: brown;
+    width: 115px;
+    height:75px;
+    text-align: center;
+    padding-top:4px;
+}
+.heading-2{
+    background-color: #cfdb20;
+    margin-top:-3%;
     text-align: center;
     
 }
+    
