@@ -74,4 +74,20 @@
     justify-content: center;
     align-items: center;
 }
+.content-sec-1{
+    display: flex;
+}
 
+.heading-4{
+    width: 80%;
+    height: 500px;
+    background-color: #4bf383;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top:250px;
+}
+.heading-5{
+    background: #857806;
+    width: 10%;
+}
