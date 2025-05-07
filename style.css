@@ -1,231 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar{
-    width: 100%;
-    height: 100px;
-    display: flex;
-}
-
-.logo-div{
-    width: 12%;
-    height: 100%;
-    background: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-div h1{
-    font-size: 35px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.head-div{
-    width: 90%;
-    height: 100%;
-    background: green ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-section{
-    width: 100%;
-    height: 100px;
-    background:yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-sec{
-    display: flex;
-    height: 200px;
-   
-}
-
-.heading-1{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top:80px;
-
-}
-.heading-2{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 0, 55);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-}
-.heading-3{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(241, 114, 235);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-}
-.content-sec-1{
-    display: flex;
-    width:100%;
-    height:500px;  
+.parent{
+    position:relative;
     
+    width:100px;
+    padding:80px;
+    background: #ff0404;
 }
 
-.head-4-div{
-  width: 100%;
-  background-color: #59dab3;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding-top: 225px;
-  
-}
-.head-5-div{
-    background-color: #5d6610;
-    width:20% ;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 225px;
-}
-.footer-1{
-    background: #2386d6;
-    width: 100%;
-    height:80px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 25px;
-}
-
-
-
-
-
-.test{
-    height:80px;
-    width: 100px;
-    background: #ffffff;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    border-top: 20px solid rgb(39, 71, 216);
-    border-left: 20px solid rgb(188, 223, 219);
-    border-right: 20px solid rgb(151, 197, 199);
-    border-bottom: 20px solid rgb(36, 77, 165);
-    text-align: center;
-    padding-top: 6px;
-    color: #2386d6;
-    font-size:20px ;
-    font-family: sans-serif;
-    
-}
-.navbar-2{
-    /* margin-top: 50px; */
-    display: flex;
-    height:150px;
-    width: 100%;
-}
-.div-logo{
-    width:100%;
-    background-color: #335ba7;
-    margin-top: 50px;
-    height:80px;
-    color: #fcfcfc;
-    padding-top:20px;
-    font-size:20px;
-    font-family: sans-serif;
-    text-indent: 20px;
-    
-}
-.div-logo-1{
-    background-color: #335ba7;
-    margin-top:50px;
-    height:80px;
-    color: #fcfcfc;
-    padding-top:23px;
-    font-size:20px;
-    font-family:sans-serif;
-    text-indent:10px;
-    padding-right: 10px;
-
-}
-.content-1{
-    background-color: #0f2d64;
-    height: 40px;
-    padding-top: 11px;
-    font-family: sans-serif;
-    color: #ffffff;
-    text-indent: 20px;
-    font-size: small;
-    display: flex;
-    margin-top:-20px;
-    
-    
-}
-.content-main{
-    height: 500px;
-    background-color: #8c9197;  
-    padding: 10px;
-
-}
-.cource-content{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: #ffffff;
-    color: #923939;
-    height:500px;
-    font-family: sans-serif;
-    border-radius: 8px;
-}
-
-.cs-1{
-    height: 70px;
-    width: 100%;
-    border: 3px solid rgb(54, 54, 153);
-    margin: 5px;
-    border-radius: 8px;
-    display: flex;
-    color: black;
-    text-indent: 10px;
-    
-    
-}
-.cs-1 img{
-    margin:8px;
-    width: 50px;
-    height:50px;
-
-}
-.cs-2{
-    height: 70px;
-    width: 100%;
-    border: 3px solid rgb(54, 54, 153);
-    border-radius: 8px;
-    margin-left:5px;
+.child{
+    position:absolute;
+    width:100px;
+    padding: 100px;
+    background: #d38bcd;
+    top: 100px;
+    left: 120px;
 
 }
 
-.cs-2 img{
-    height: 70px;
-    width: 100%;
-    border: 3px solid rgb(54, 54, 153);
-    margin: 5px;
-    border-radius: 8px;
-    display: flex;
-    color: black;
-    text-indent: 10px; 
+.child-2{
+    position:absolute;
+    width:100px;
+    padding: 100px;
+    background: #d3bf08;
+    top: 200px;
+    left: 230px;
+
+}
+
+.child-3{
+    position:absolute;
+    width:100px;
+    padding: 100px;
+    background: #127909;
+    left: 330px;
+    top: 50px;
 }
