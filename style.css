@@ -110,5 +110,19 @@ body{
 }
 
 .child-8{
-    
+    position:absolute;
+    width:150px;
+    height:150px;
+    background: #e737d0;
+    border: 2px solid #000000;
+    text-align: center;
+    top: 134px;
+    left: 1240px;
+}
+
+.footter{
+    height: 100px;
+    width: 100%;
+    background: #d8d7a8;
+    top:500px;
 }
